@@ -1,0 +1,16 @@
+RXMONITOR Nirva service
+
+This file contains the uniq service IDs you must use to create and check your license
+
+Two service IDs are defined: the public service ID and the private service ID.
+
+The public service ID must be used from inside your service in order to check
+license channels that you have created. You check licenses by using the
+SYSTEM LICENSE GET command.
+
+The private service ID must be used only for creating new license channels by the way
+of the Nirva nvl tool. The private service ID is confidential and must not be delivered
+to anybody.
+
+
+public service ID  : 2B6B7AB67288A32E575A004BFD64EE45

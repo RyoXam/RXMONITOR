@@ -1,0 +1,43 @@
+// package.lst : installation package listing
+// for NIRVA SERVICE XMONITOR
+
+
+// Header section
+// This section is transmitted as it is to the package file
+[HEADER]
+SERVICE = XMONITOR
+
+
+// All files and subdirectories of SERVICE Bin directory
+[/Bin]
+copydirsub:
+
+// Description file
+[/Files]
+copyfile:service.dsc
+textfile:service.dsc
+
+// All files and subdirectories of SERVICE Files/Config directory
+[/Files/Config]
+copydirsub:
+
+// All files and subdirectories of SERVICE Files/Test directory
+[/Files/Test]
+copydirsub:
+
+// Removes SERVICE Docs/Html directory
+[/Docs/Html]
+removedirsub:
+
+// All files and subdirectories of SERVICE Docs directory
+[/Docs]
+copydirsub:
+
+// All files and subdirectories of SERVICE Procs directory
+[/Procs]
+copydirsub:
+
+// All files and subdirectories of SERVICE Wroot directory
+[/Wroot]
+copydirsub:
+
